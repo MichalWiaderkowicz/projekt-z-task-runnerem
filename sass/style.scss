@@ -9,6 +9,7 @@
 .container {
     max-width: 900px;
 }
+
 .logo {
     color: #f1c40f;
     padding-top: 10px;
@@ -24,12 +25,10 @@ nav ul li {
     float: right;
     padding-bottom: 15px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: #fff;
 }
-
 nav ul li:hover a {
     display: block;
     color: #f1c40f;
@@ -80,14 +79,20 @@ nav ul li:hover ul {
     background-color: #f1c40f;
     color: #fff;
 }
-.services .col-sm-4 { 
-    position:relative
+.col-sm-4 { 
+    position:relative;
+    text-align: center;
+    
 }
-.services-title {
+.services-title{
     text-align: center;
     padding-top: 50px;
 }
-.services-subtitle {
+.section-title {
+    text-align: center;
+    padding-top: 50px;
+}
+.section-subtitle {
     text-align: center;
     color: #7f8c8d;
     font-style: italic;
@@ -104,4 +109,13 @@ nav ul li:hover ul {
     color: #fff;
     border-radius: 50%;
     right: 40%;
+}
+.portfolio {
+    background-color: #dcdde1;
+    display: flexbox;
+    padding: 30px;
+}
+.card-image img {
+    width: 250px;
+    height: 250px;
 }
